@@ -1,3 +1,6 @@
+(setq mac-command-modifier 'meta)
+(setq mac-option-modifier nil)
+
 ;; (setq prelude-theme 'solarized-dark)
 ;; (setq prelude-theme 'tango)
 (set-default-font "Monaco 14")
