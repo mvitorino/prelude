@@ -1,6 +1,7 @@
 ;; (setq prelude-theme 'solarized-dark)
 ;; (setq prelude-theme 'tango)
 (set-default-font "Monaco 14")
+;; (set-face-attribute 'default nil :height 140)
 
 (toggle-scroll-bar -1)
 ;; for new frames
@@ -26,3 +27,6 @@
 (setq display-time-format " %H:%M"
       display-time-default-load-average nil)
 (display-time-mode 1)
+
+(setq whitespace-line-column 120)
+
